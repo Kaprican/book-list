@@ -1,0 +1,31 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: #67568c;
+    padding: 1rem;
+    width: 25rem;
+    height: 100vh;
+}
+
+.form * {
+    color: white;
+    margin: .5rem;
+}
+
+.form label {
+    margin-bottom: 0;
+}
+
+.form button {
+    background-color: #ff6e6c;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1f1235;
+    padding: .5rem;
+    font-weight: bold;
+}
+
+.form input {
+    color: #1f1235;
+}

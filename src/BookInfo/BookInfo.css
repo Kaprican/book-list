@@ -1,0 +1,41 @@
+button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #67568c;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: .5rem;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-container * {
+    flex-grow: 1;
+}
+
+.button-container {
+    flex-grow: 0;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.info-container.edit * {
+    margin: .5rem;
+}
+
+.info-container.edit label {
+    margin-bottom: 0;
+}
+
+.info-container.edit button {
+    font-weight: bold;
+}
+
+.info-container.edit input {
+    color: #1f1235;
+    font-family: 'Montserrat', sans-serif;
+}

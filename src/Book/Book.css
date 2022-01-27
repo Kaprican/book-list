@@ -1,0 +1,18 @@
+.card {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: box-shadow .3s ease;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, .15);
+}
+
+.card-img {
+    height: 205px;
+    margin: auto;
+}
